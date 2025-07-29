@@ -95,6 +95,8 @@ a {
 .random-info{
     display: flex;
     flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 100px;
 }
 
 .random-info h2{
@@ -115,7 +117,8 @@ a {
 .quote-section {
     background-color: #E5E7EB;
     display: flex;
-    padding: 0 200px;
+    padding: 50px 200px;
+    margin-top: 50px;
 }
 
 .quote {
@@ -128,5 +131,4 @@ a {
     justify-content: flex-end;
     align-self: flex-end;
     font-weight: 900;
-
 }
