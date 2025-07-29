@@ -14,9 +14,6 @@
     padding: 0px 150px;
 }
 
-.left-side {
-    font-weight: 800;
-}
 
 .right-side {
     display: flex;
@@ -31,9 +28,22 @@ h1 {
 
 .hero-section {
     background-color: #1F2937;
+    /* display: flex; */
 }
 
 .hero-section p, a {
     font-size: 24px;
     color: #F9FAF8
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.hero-section a {
+    background-color: #3882F6;
+    padding: 7px 30px;
+    border-radius: 10px;
 }
