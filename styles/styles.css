@@ -26,6 +26,10 @@ h1 {
     color: #F9FAF8;
 }
 
+a {
+    text-decoration: none;
+}
+
 .hero-section {
     background-color: #1F2937;
     padding: 0px 150px;
@@ -51,7 +55,6 @@ h1 {
 .hero-section p, a {
     font-size: 24px;
     color: #F9FAF8;
-    
 }
 
 .logo {
@@ -64,10 +67,9 @@ h1 {
     background-color: #3882F6;
     padding: 7px 30px;
     border-radius: 10px;
-    
 }
 
-.photo {
+.hero-photo {
     color: white;
     width: 300px;
     height: 300px;
@@ -75,11 +77,30 @@ h1 {
     flex: 0 0 auto;
     display: flex;
     justify-content: center;
-    align-items: center;
-
-    
+    align-items: center;   
 }
 
-a {
-    text-decoration: none;
+.random-image {
+    border: 3px solid blue;
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+    flex: 0 0 auto;
+}
+
+.random-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.random-info h2{
+    display: flex;
+    justify-content: center;
+}
+
+.random-content-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0 200px;
+    gap: 25px;
 }
