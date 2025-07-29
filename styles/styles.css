@@ -1,3 +1,24 @@
-h1 {
-    color: red;
+@import url('https://fonts.googleapis.com/css?family=roboto&display=swap');
+
+* {
+    border: 1px solid red;
+    font-family: roboto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    align-items: center;
+    color: white;
+    padding: 0px 150px;
+}
+
+.left-side {
+    font-weight: 800;
+}
+
+.right-side {
+    display: flex;
+    gap: 15px
 }
