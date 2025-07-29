@@ -111,3 +111,22 @@ a {
     padding: 0 200px;
     gap: 25px;
 }
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    padding: 0 200px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    font-weight: 900;
+
+}
