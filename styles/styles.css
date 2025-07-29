@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=roboto&display=swap');
 
 * {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     font-family: roboto;
     padding: 0;
     margin: 0;
@@ -159,3 +159,11 @@ a {
     font-weight: 900;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#1F2937;
+    padding: 30px;
+    color: white;
+}
